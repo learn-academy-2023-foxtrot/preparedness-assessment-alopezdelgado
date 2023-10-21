@@ -21,7 +21,7 @@ const App = () => {
 
   const resetNameChange = () => {
     setUserName("")
-    console.log("Reset button clicked")
+   
   }
   return (
     <div className="entire-content">
@@ -29,10 +29,12 @@ const App = () => {
       <div className="form">
         <div className="input">
           <Label for="name">Enter your name</Label>
-          <Input value={userName} onChange={handleNameChange}/>
+          <Input className="input-field" value={userName} onChange={handleNameChange}/>
         </div>
-        <Button onClick={openModal}>Click Me</Button>
-        <Button onClick={resetNameChange}>Reset</Button>
+        <div className="buttons">
+        <Button className="btn" onClick={openModal}>Click Me</Button>
+        <Button className="btn" onClick={resetNameChange}>Reset</Button>
+        </div>
         {isModalOpen && (
           <ModalComponent isOpen={isModalOpen} closeModal={closeModal} userName={userName} />
           )}
