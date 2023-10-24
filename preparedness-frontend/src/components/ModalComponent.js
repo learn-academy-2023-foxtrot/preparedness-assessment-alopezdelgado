@@ -8,7 +8,7 @@ const ModalComponent = ({isOpen, closeModal, userName}) => {
   <Modal isOpen={isOpen}>
       <ModalHeader>Hello there, {userName}!</ModalHeader>
       <ModalBody>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec id arcu non velit lacinia tincidunt.
+      Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. Summus brains sit​​, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris. Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium.
       </ModalBody>
       <ModalFooter>
         <Button color="secondary" onClick={closeModal}>

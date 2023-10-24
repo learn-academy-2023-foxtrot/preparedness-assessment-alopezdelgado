@@ -1,39 +1,39 @@
 body {
-    background-image: url("./assets/background-image.jpeg");
+  background-image: url("./assets/background-image.jpeg");
 }
 
 h1{
-    color: white;
-    font-size: 50px;
-    text-align: center;
+  color: white;
+  font-size: 50px;
+  text-align: center;
 }
 
 .name{
-    text-align: center;
-    color: white;
-    font-size: 35px; 
+  text-align: center;
+  color: rgb(254, 254, 254);
+  font-size: 35px; 
 }
 
 .input-field{
-    text-align: center;
-    font-size: 18px;
-    width: 50%;
-    padding: 6px 12px;
-    margin: 0 auto;
-    display: block;
+  text-align: center;
+  font-size: 18px;
+  width: 50%;
+  padding: 6px 12px;
+  margin: 0 auto;
+  display: block;
 }
 
 .buttons {
-    text-align: center;
-  }
+  text-align: center;
+}
 
-  .btn {
-    background-color: #0dcaf0;
-    color: white;
-    width: 100px;
-    padding: 10px;
-    margin: 20px;
-  }
+ .btn {
+  background-color: #0dcaf0;
+  color: white;
+  width: 100px;
+  padding: 10px;
+  margin: 20px;
+}
 
 .input-field,
 .buttons {
