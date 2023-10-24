@@ -28,16 +28,16 @@ const App = () => {
       <h1>Preparedness Assessment</h1>
       <div className="form">
         <div className="input">
-          <Label for="name">Enter your name</Label>
-          <Input className="input-field" value={userName} onChange={handleNameChange}/>
+            <Label for="name">Enter your name</Label>
+            <Input className="input-field" value={userName} onChange={handleNameChange}/>
+          </div>
+          <div className="buttons">
+          <Button className="btn" onClick={openModal}>Click Me</Button>
+          <Button className="btn" onClick={resetNameChange}>Reset</Button>
         </div>
-        <div className="buttons">
-        <Button className="btn" onClick={openModal}>Click Me</Button>
-        <Button className="btn" onClick={resetNameChange}>Reset</Button>
-        </div>
-        {isModalOpen && (
-          <ModalComponent isOpen={isModalOpen} closeModal={closeModal} userName={userName} />
-          )}
+          {isModalOpen && (
+            <ModalComponent isOpen={isModalOpen} closeModal={closeModal} userName={userName} />
+            )}
       </div>
     </div>
   )
